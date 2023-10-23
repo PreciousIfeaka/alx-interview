@@ -38,5 +38,3 @@ try:
             print_metrics()
 except KeyboardInterrupt:
     print_metrics()
-    raise
-print_metrics()
