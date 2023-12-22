@@ -40,9 +40,11 @@ def isWinner(x, nums):
         elif winner == "Ben":
             ben_wins += 1
 
-    if maria_wins > ben_wins:
+    if x < 1:
+        return None
+    elif nums is None:
+        return None
+    elif maria_wins > ben_wins:
         return "Maria"
     elif ben_wins > maria_wins:
         return "Ben"
-    else:
-        return None
