@@ -5,6 +5,8 @@
 
 
 def island_perimeter(grid):
+    '''This function finds the square or rectangular perimeter of an island
+    '''
     perimeter = 0
 
     for i in range(len(grid)):
