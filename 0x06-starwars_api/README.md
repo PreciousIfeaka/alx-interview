@@ -1,0 +1,1 @@
+This directory contains a javascript module that makes use of the starwars api.
